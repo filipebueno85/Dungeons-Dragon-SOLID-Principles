@@ -1,5 +1,10 @@
-// import Monster from './Monster';
+import Monster from './Monster';
 
-// class Dragon extends Monster {
-//   private _life
-// }
+class Dragon extends Monster {
+  constructor() {
+    super();
+    this._lifePoints = 999;
+  }
+}
+
+export default Dragon;
